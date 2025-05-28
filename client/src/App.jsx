@@ -1,14 +1,14 @@
+
 import React from 'react'
 import './App.css'
 
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      <h1>hello</h1>
-    </>
-  )
-}
+    <div>
+      <DevPage />
+    </div>
+  );
+};
 
-export default App
+export default App;
+
