@@ -1,6 +1,5 @@
 import React from 'react';
-
-// Inline CSS with Desktop and Mobile Responsiveness
+import { Link } from 'react-router-dom';
 const styles = {
   app: {
     display: 'flex',
