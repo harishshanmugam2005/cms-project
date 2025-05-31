@@ -3,13 +3,13 @@ import React from 'react';
 const TeamPage = () => {
   const teamMembers = [
     {
-      name: 'Harish',
-      role: 'Team Lead',
+      name: 'Anstron Graif',
+      role: 'Team Member',
       emoji: '🧑‍💼',
     },
     {
-      name: 'Anstron Graif',
-      role: 'Team Member',
+      name: 'Harish',
+      role: 'Team Lead',
       emoji: '🧑‍💼',
     },
     {
@@ -41,8 +41,8 @@ const styles = {
     margin: '0 auto',
     padding: '40px',
     fontFamily: 'Arial, sans-serif',
-    backgroundColor: '#f9f9f9',
-    color: '#333',
+    backgroundColor: 'lightblue',
+    color: 'black',
   },
   title: {
     fontSize: '2.5rem',
@@ -56,6 +56,7 @@ const styles = {
   },
   teamMember: {
     width: '220px',
+    marginLeft: '20px',
     marginBottom: '30px',
     textAlign: 'center',
     backgroundColor: '#fff',
@@ -63,9 +64,10 @@ const styles = {
     padding: '20px',
     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
     transition: 'transform 0.3s',
+    paddingLeft:'20px',
   },
   profileEmoji: {
-    fontSize: '4rem',  // Adjust the size of the emoji
+    fontSize: '5rem',  // Adjust the size of the emoji
     marginBottom: '15px',
   },
   memberName: {
